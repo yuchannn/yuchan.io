@@ -1,4 +1,4 @@
-import type { BlogPost } from '../types/blog';
+import type { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
@@ -8,5 +8,4 @@ export const blogPosts: BlogPost[] = [
     date: '2024-01-15',
     slug: 'part-of-getting-it'
   },
-  // You can add more blog posts here
 ]; 

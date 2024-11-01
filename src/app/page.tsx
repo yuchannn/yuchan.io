@@ -37,7 +37,7 @@ export default function Home() {
           <div className="text-base leading-relaxed">
             
             <p>
-              My name is Yuchan, and I'm a M.S. student studying Electrical and Computer Engineering
+              My name is Yuchan, and I&apos;m a M.S. student studying Electrical and Computer Engineering
               from Carnegie Mellon University. I was born in Chicago, grew up in Taiwan, and moved
               to Pittsburgh for college. Even though I am still currently living in Pittsburgh, me and 
               my friend Neelansh Kaabra co-founded our startup <a href="https://www.creditsea.com" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CreditSea</a> that is based out in India.
@@ -48,8 +48,8 @@ export default function Home() {
               Just imagine the level of engineering that made it possible for you (a stranger) to view this little about me website on your phone. 
               I find it it pretty damn amazing. 
               From tinkering around with little web projects, to eventually writing my own C compiler from scratch in Rust, 
-              I've tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
-              Glad that you're following right along.
+              I&apos;ve tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
+              Glad that you&apos;re following right along.
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold">Me Outside of Work</h2>
           <p className="text-base leading-relaxed">
             Outside of work, I live with the purpose of challenging myself to improve in any way I can
-            (but that doesn't mean I don't try to have fun). In a way, I fantasize about being the
+            (but that doesn&apos;t mean I don&apos;t try to have fun). In a way, I fantasize about being the
             main character in my own life. You know, those animes where after a gruelling 10 season
             grind, the protagonists unlocks some sort of over-powered superpower that allows them
             to protect those around them.
