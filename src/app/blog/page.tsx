@@ -2,10 +2,23 @@
 import React from 'react';
 import Link from 'next/link';
 import { blogPosts } from '../../data/blog-posts';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen p-8 font-[family-name:var(--font-geist-mono)]">
+    <div className="min-h-screen p-8 font-[family-name:var(--font-geist-mono)] flex flex-col">
+      <nav className="flex justify-between items-center">
+        <Link 
+          href="/"
+          className="text-foreground/80 hover:text-foreground hover:underline transition-colors text-sm"
+        >
+          me
+        </Link>
+        <div className="h-6 flex items-center">
+          <ThemeToggle />
+        </div>
+      </nav>
+      
       <main className="max-w-3xl mx-auto mt-16 space-y-8">
         <h1 className="text-4xl font-bold mb-8">Blog</h1>
         

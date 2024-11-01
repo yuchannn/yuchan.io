@@ -46,7 +46,7 @@ export default function Home() {
               I have a deep passion for engineering, particularly software. 
               I think EECS is truly as close as we can get to modern day magic. 
               Just imagine the level of engineering that made it possible for you (a stranger) to view this little about me website on your phone. 
-              I find it it pretty damn amazing. 
+              I find it pretty damn amazing. 
               From tinkering around with little web projects, to eventually writing my own C compiler from scratch in Rust, 
               I&apos;ve tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
               Glad that you&apos;re following right along.
@@ -125,8 +125,14 @@ export default function Home() {
           <p className="text-base leading-relaxed">
             I am pretty basic in many of my pursuits. I hit the gym, play the piano, and (try to) cook, just like pretty much any other guy in his twenties.
             That isn't to say I don't have my little peculiarities either! In fact, I have a lot of little quirks... I take a shot of olive oil every morning. I 
-            am so concerned about health that I drink Novos Core. I take vitamins and fish oil for my brain health. In essence, I treat my body like a machine, and that 
+            am so concerned about health that I drink Novos Core. I take vitamins and fish oil for my brain health. In essence, I treat my body like a machine, in the way that 
             I need to provide enough resources for the machine to function properly (?). 
+          </p>
+          <p className="text-base leading-relaxed">
+            I also love to play basketball. That being said, my approach to basketball is a rather unconventional one for amateur players. I've done numerous jump training programs
+            to achieve a level of athleticism such that my game is primarily reliant on raw athleticism rather than skill. At only 184 centimeters tall, I can two hand tomahawk on a 
+            standard regulation 10 foot rim. "Why?"" You might ask. "Doesn't skill translate into more longevity?" While that is true, I just think playing sports based on raw athleticism
+            is so much more satisfying. Even when watching basketball, I think it is so much more exciting watching players like Anthony Edwards just fly to the rim.
           </p>
           <p className="text-base leading-relaxed">
             Anyways, welcome to my website and I hope you like it here :)
