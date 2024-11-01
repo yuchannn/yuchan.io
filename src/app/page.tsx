@@ -38,7 +38,7 @@ export default function Home() {
             
             <p>
               My name is Yuchan, and I&apos;m a M.S. student studying Electrical and Computer Engineering
-              from Carnegie Mellon University. I was born in Chicago, grew up in Taiwan, and moved
+              at Carnegie Mellon University. I was born in Chicago, grew up in Taiwan, and moved
               to Pittsburgh for college. Even though I am still currently living in Pittsburgh, me and 
               my friend Neelansh Kaabra co-founded our startup <a href="https://www.creditsea.com" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CreditSea</a> that is based out in India.
             </p>
