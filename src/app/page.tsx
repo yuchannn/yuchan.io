@@ -122,6 +122,15 @@ export default function Home() {
           <p className="text-sm text-foreground/60 mt-4">
             Some of my favorite animes!
           </p>
+          <p className="text-base leading-relaxed">
+            I am pretty basic in many of my pursuits. I hit the gym, play the piano, and (try to) cook, just like pretty much any other guy in his twenties.
+            That isn't to say I don't have my little peculiarities either! In fact, I have a lot of little quirks... I take a shot of olive oil every morning. I 
+            am so concerned about health that I drink Novos Core. I take vitamins and fish oil for my brain health. In essence, I treat my body like a machine, and that 
+            I need to provide enough resources for the machine to function properly (?). 
+          </p>
+          <p className="text-base leading-relaxed">
+            Anyways, welcome to my website and I hope you like it here :)
+          </p>
         </div>
       </main>
 
