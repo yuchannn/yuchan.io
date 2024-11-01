@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from '@tailwindcss/typography';
 
 const config: Config = {
   content: [
@@ -12,8 +13,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize: {
+        'base': '0.75rem',    // 12px
+        'lg': '0.875rem',     // 14px
+        '4xl': '1.75rem',     // Smaller h1
+        'xl': '1rem',         // 16px for section headers
+        'sm': '0.7rem',       // Even smaller for small text
+      }
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
+
 export default config;

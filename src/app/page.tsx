@@ -1,100 +1,162 @@
 import Image from "next/image";
+import ThemeToggle from "@/components/ThemeToggle";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <div className="min-h-screen p-8 font-[family-name:var(--font-geist-mono)] flex flex-col">
+      <nav className="flex justify-between items-center">
+        <Link 
+          href="/blog"
+          className="text-foreground/80 hover:text-foreground hover:underline transition-colors text-sm"
+        >
+          Blog
+        </Link>
+        <div className="h-6 flex items-center">
+          <ThemeToggle />
+        </div>
+      </nav>
+      
+      <main className="max-w-3xl mx-auto mt-16 space-y-8 flex-grow">
+        <div className="space-y-6">
+          <h1 className="text-4xl font-bold text-center">Hi there! 👋</h1>
+          
+          {/* Profile Image */}
+          <div className="flex justify-center">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/images/profile.jpg"
+              alt="Yuchan's profile picture"
+              width={200}
+              height={200}
+              className="rounded-full object-cover shadow-lg"
+              priority
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
+          <h2 className="text-xl font-semibold">Me and Work</h2>
+          <div className="text-base leading-relaxed">
+            
+            <p>
+              My name is Yuchan, and I'm a M.S. student studying Electrical and Computer Engineering
+              from Carnegie Mellon University. I was born in Chicago, grew up in Taiwan, and moved
+              to Pittsburgh for college. Even though I am still currently living in Pittsburgh, me and 
+              my friend Neelansh Kaabra co-founded our startup <a href="https://www.creditsea.com" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CreditSea</a> that is based out in India.
+            </p>
+            <p className="mt-4">
+              I have a deep passion for engineering, particularly software. 
+              I think EECS is truly as close as we can get to modern day magic. 
+              Just imagine the level of engineering that made it possible for you (a stranger) to view this little about me website on your phone. 
+              I find it it pretty damn amazing. 
+              From tinkering around with little web projects, to eventually writing my own C compiler from scratch in Rust, 
+              I've tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
+              Glad that you're following right along.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div className="space-y-4 p-6 rounded-lg border border-foreground/10">
+            <h2 className="text-xl font-semibold">Education</h2>
+            <p>Carnegie Mellon University</p>
+            <p className="text-xs text-foreground/70">B.S./M.S. in Electrical and Computer Engineering</p>
+          </div>
+
+          <div className="space-y-4 p-6 rounded-lg border border-foreground/10">
+            <h2 className="text-xl font-semibold">Background</h2>
+            <ul className="space-y-2 text-xs">
+              <li>Born in Chicago, IL</li>
+              <li>Grew up in Taipei, Taiwan</li>
+              <li>Currently in Pittsburgh, PA</li>
+            </ul>
+          </div>
+        
+        
+        </div>
+        <hr className="border-foreground/10 my-4" />
+
+        <div className="space-y-4 mt-12">
+          <h2 className="text-xl font-semibold">Me Outside of Work</h2>
+          <p className="text-base leading-relaxed">
+            Outside of work, I live with the purpose of challenging myself to improve in any way I can
+            (but that doesn't mean I don't try to have fun). In a way, I fantasize about being the
+            main character in my own life. You know, those animes where after a gruelling 10 season
+            grind, the protagonists unlocks some sort of over-powered superpower that allows them
+            to protect those around them.
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+            <div className="relative aspect-square overflow-hidden rounded-lg border border-foreground/10">
+              <Image
+                src="/gifs/bluelock.gif"
+                alt="Blue Lock - Yoichi Isagi"
+                fill
+                className="object-cover hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative aspect-square overflow-hidden rounded-lg border border-foreground/10">
+              <Image
+                src="/gifs/demonslayer.gif"
+                alt="Demon Slayer - Tanjiro"
+                fill
+                className="object-cover hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative aspect-square overflow-hidden rounded-lg border border-foreground/10">
+              <Image
+                src="/gifs/jjk.gif"
+                alt="Jujutsu Kaisen - Gojo"
+                fill
+                className="object-cover hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative aspect-square overflow-hidden rounded-lg border border-foreground/10">
+              <Image
+                src="/gifs/cote.gif"
+                alt="Classroom of the Elite - Ayanokoji"
+                fill
+                className="object-cover hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+          </div>
+          
+          <p className="text-sm text-foreground/60 mt-4">
+            Some of my favorite animes!
+          </p>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      <footer className="max-w-3xl mx-auto w-full mt-16 pb-8">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="flex space-x-6">
+            <a
+              href="https://www.linkedin.com/in/yuchan-huang/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-foreground transition-colors"
+            >
+              <FaLinkedin size={24} />
+            </a>
+            <a
+              href="https://www.instagram.com/ykevin.huang/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-foreground transition-colors"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a
+              href="https://github.com/yuchannn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-foreground transition-colors"
+            >
+              <FaGithub size={24} />
+            </a>
+          </div>
+          <p className="text-sm text-foreground/60">
+            2024 © Yuchan
+          </p>
+        </div>
       </footer>
     </div>
   );

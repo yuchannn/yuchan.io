@@ -1,0 +1,36 @@
+<svg width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background pattern with diagonal lines -->
+  <rect width="100%" height="100%" fill="black"/>
+  <g stroke="white" stroke-width="0.5">
+    <line x1="0" y1="0" x2="200" y2="200" />
+    <line x1="20" y1="0" x2="180" y2="200" />
+    <line x1="40" y1="0" x2="160" y2="200" />
+    <line x1="60" y1="0" x2="140" y2="200" />
+    <line x1="80" y1="0" x2="120" y2="200" />
+    <line x1="100" y1="0" x2="100" y2="200" />
+    <line x1="120" y1="0" x2="80" y2="200" />
+    <line x1="140" y1="0" x2="60" y2="200" />
+    <line x1="160" y1="0" x2="40" y2="200" />
+    <line x1="180" y1="0" x2="20" y2="200" />
+    <line x1="200" y1="0" x2="0" y2="200" />
+  </g>
+  
+  <!-- Circular pattern -->
+  <g fill="none" stroke="white" stroke-width="0.5" opacity="0.3">
+    <circle cx="100" cy="100" r="10" />
+    <circle cx="100" cy="100" r="30" />
+    <circle cx="100" cy="100" r="50" />
+    <circle cx="100" cy="100" r="70" />
+    <circle cx="100" cy="100" r="90" />
+  </g>
+  
+  <!-- Concentric squares -->
+  <g fill="none" stroke="white" stroke-width="0.5" opacity="0.6">
+    <rect x="10" y="10" width="180" height="180" />
+    <rect x="30" y="30" width="140" height="140" />
+    <rect x="50" y="50" width="100" height="100" />
+  </g>
+  
+  <!-- Centered Letter Y -->
+  <text x="50%" y="50%" font-size="150px" font-family="Arial" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">Y</text>
+</svg>
