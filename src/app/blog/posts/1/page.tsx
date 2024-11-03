@@ -20,9 +20,10 @@ export default function FirstBlogPost() {
         <article className="space-y-6">
           <h1 className="text-4xl font-bold">{post.title}</h1>
           <p className="text-sm text-foreground/60">{post.date}</p>
-          <div className="prose dark:prose-invert max-w-none">
-            {post.content}
-          </div>
+          <div 
+            className="prose dark:prose-invert max-w-none"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
         </article>
       </main>
     </div>
