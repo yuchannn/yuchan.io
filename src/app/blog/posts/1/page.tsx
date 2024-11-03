@@ -14,7 +14,7 @@ export default function FirstBlogPost() {
             href="/blog"
             className="text-foreground/80 hover:text-foreground hover:underline transition-colors"
           >
-            ← Back to Blog
+            ← Back to Thoughts
           </Link>
         </div>
         <article className="space-y-6">

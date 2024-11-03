@@ -20,7 +20,12 @@ export default function BlogPage() {
       </nav>
       
       <main className="max-w-3xl mx-auto mt-16 space-y-8">
-        <h1 className="text-4xl font-bold mb-8">Blog</h1>
+        <div className="space-y-2">
+          <h1 className="text-4xl font-bold">Thoughts and Whatnot</h1>
+          <p className="text-base text-foreground/60">
+            A collection of random thoughts that I have had over the years
+          </p>
+        </div>
         
         <div className="space-y-6">
           {blogPosts.map((post) => (

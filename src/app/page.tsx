@@ -11,7 +11,7 @@ export default function Home() {
           href="/blog"
           className="text-foreground/80 hover:text-foreground hover:underline transition-colors text-sm"
         >
-          Blog
+          Thoughts and Whatnot
         </Link>
         <div className="h-6 flex items-center">
           <ThemeToggle />
