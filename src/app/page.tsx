@@ -80,7 +80,9 @@ export default function Home() {
             (but that doesn&apos;t mean I don&apos;t try to have fun). In a way, I fantasize about being the
             main character in my own life. You know, those animes where after a gruelling 10 season
             grind, the protagonists unlocks some sort of over-powered superpower that turns them into some sort of 
-            superhero among the normal people.
+            superhero among the normal people. While not a perfect analogy, I believe the really amazing things in life
+            can only be achieved by consistently working hard on yourself for a very long time -- rather than things that result from
+            a singular moment of genius.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
