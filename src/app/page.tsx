@@ -46,7 +46,6 @@ export default function Home() {
               I have a deep passion for engineering, particularly software. 
               I think EECS is truly as close as we can get to modern day magic. 
               Just imagine the level of engineering that made it possible for you (a stranger) to view this little about me website on your phone. 
-              I find it pretty damn amazing. 
               From tinkering around with little web projects, to eventually writing my own C compiler from scratch in Rust, 
               I&apos;ve tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
               Glad that you&apos;re following right along.
@@ -80,8 +79,8 @@ export default function Home() {
             Outside of work, I live with the purpose of challenging myself to improve in any way I can
             (but that doesn&apos;t mean I don&apos;t try to have fun). In a way, I fantasize about being the
             main character in my own life. You know, those animes where after a gruelling 10 season
-            grind, the protagonists unlocks some sort of over-powered superpower that allows them
-            to protect those around them.
+            grind, the protagonists unlocks some sort of over-powered superpower that turns them into some sort of 
+            superhero among the normal people.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
@@ -124,18 +123,15 @@ export default function Home() {
           </p>
           <p className="text-base leading-relaxed">
             I am pretty basic in many of my pursuits. I hit the gym, play the piano, and (try to) cook, just like pretty much any other guy in his twenties.
-            That isn't to say I don't have my little peculiarities either! In fact, I have a lot of little quirks... I take a shot of olive oil every morning. I 
-            am so concerned about health that I drink Novos Core. I take vitamins and fish oil for my brain health. In essence, I treat my body like a machine, in the way that 
-            I need to provide enough resources for the machine to function properly (?). 
+            That isn't to say I don't have my little peculiarities either! In fact, I have a quite lot of little quirks... I take a shot of olive oil every morning. I 
+            am (perhaps) overly-concerned about health that I consume inordinate amounts of supplements. In a weird way, I treat my body like a machine.
           </p>
           <p className="text-base leading-relaxed">
-            I also love to play basketball. That being said, my approach to basketball is a rather unconventional one for amateur players. I've done numerous jump training programs
-            to achieve a level of athleticism such that my game is primarily reliant on raw athleticism rather than skill. At only 184 centimeters tall, I can two hand tomahawk on a 
-            standard regulation 10 foot rim. "Why?"" You might ask. "Doesn't skill translate into more longevity?" While that is true, I just think playing sports based on raw athleticism
-            is so much more satisfying. Even when watching basketball, I think it is so much more exciting watching players like Anthony Edwards just fly to the rim.
+            I am a very big fan of attaching metrics to my life -- almost in an obsessive manner. I measure how much I sleep with a smart bed and my Oura Ring,
+            I get regular blood work done to make sure my body is working the way it should, and I count the amount of calories I eat every single day. 
           </p>
           <p className="text-base leading-relaxed">
-            Anyways, welcome to my website and I hope you like it here :)
+            Anyways, welcome to my website and I hope you like it here :) Feel free to message me on any platform if you want to connect!
           </p>
         </div>
       </main>

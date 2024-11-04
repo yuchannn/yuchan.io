@@ -16,6 +16,7 @@ export default function ThemeToggle() {
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
     document.documentElement.setAttribute('data-theme', newTheme)
+    document.documentElement.classList.toggle('dark', newTheme === 'dark')
   }
 
   return (
