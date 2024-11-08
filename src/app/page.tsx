@@ -61,11 +61,11 @@ export default function Home() {
           </div>
 
           <div className="space-y-4 p-6 rounded-lg border border-foreground/10">
-            <h2 className="text-xl font-semibold">Background</h2>
+            <h2 className="text-xl font-semibold">Work Experience</h2>
             <ul className="space-y-2 text-xs">
-              <li>Born in Chicago, IL</li>
-              <li>Grew up in Taipei, Taiwan</li>
-              <li>Currently in Pittsburgh, PA</li>
+              <li>CTO/Co-Founder @ <a href="https://www.creditsea.com" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CreditSea</a></li>
+              <li>CTO/Co-Founder @ <a href="https://www.sauvant.ai" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">SauvantAI</a></li>
+              <li>Researcher @ <a href="https://catalyst.cs.cmu.edu/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CMU Catalyst Lab</a></li>
             </ul>
           </div>
         
