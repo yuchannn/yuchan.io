@@ -82,7 +82,8 @@ export default function Home() {
             grind, the protagonists unlocks some sort of over-powered superpower that turns them into some sort of 
             superhero among the normal people. While not a perfect analogy, I believe the really amazing things in life
             can only be achieved by consistently working hard on yourself for a very long time -- rather than things that result from
-            a singular moment of genius.
+            a singular moment of genius. The discipline that you exhibit over time will give you a superpower that others cannot simply
+            achieve in a day.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
