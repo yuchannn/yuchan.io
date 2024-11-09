@@ -1,37 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Little Corner of the Internet 🌱
 
-## Getting Started
+Hey there! Welcome to the source code of my personal website. This is where I'm documenting my journey through life, sharing my thoughts, and experimenting with web technologies I find interesting.
 
-First, run the development server:
+## What's This About?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is more than just a portfolio - it's my digital garden where I'm growing my thoughts and experiences. From my journey as a student at CMU to my adventures in co-founding startups, I'm trying to capture it all here. The blog section is where I dump my random thoughts and musings (which I hope will become more structured over time!).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Built with:
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Vercel for hosting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Why This Exists
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# yuchan.io
+I believe in building in public and sharing experiences. While LinkedIn tells my professional story, this space is more personal - it's where I can be myself, share my quirky obsessions, talk about my weird health experiments, and document my journey of continuous self-improvement.
