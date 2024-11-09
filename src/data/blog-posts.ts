@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
         <p class="text-foreground dark:text-foreground/90">This experience brought about a new mentality for me. As engineers, we live to build reliable and functional things. In the past, it took a lot of time to get the ball rolling, and even more experience to craft something reliable. Now, we can craft amazing things without having to go through the hassle of learning unimportant intricacies of the technology that we're using before even writing a line of code. There are obviously pros to learning them but you can always learn it as you continue to increase the complexity of your projects. We will learn through practice!</p>
       </div>
     `,
-    date: '2024-11-09',
+    date: '2024-11-04',
     slug: 'learn-first-build-later-to-build-first-learn-later'
   },
   {

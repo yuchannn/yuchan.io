@@ -28,7 +28,9 @@ export default function BlogPage() {
         </div>
         
         <div className="space-y-6">
-          {blogPosts.map((post) => (
+          {blogPosts
+            .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+            .map((post) => (
             <article 
               key={post.id} 
               className="p-6 rounded-lg border border-foreground/10 hover:border-foreground/20 transition-colors"
