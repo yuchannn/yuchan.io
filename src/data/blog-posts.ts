@@ -2,6 +2,35 @@ import type { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: '2',
+    title: 'Learn First, Build Later to Build First, Learn Later',
+    content: `
+      <div class="prose dark:prose-invert max-w-none">
+        <p class="text-foreground dark:text-foreground/90">ChatGPT is a super power for builders. For my fellow developers out there, you can probably relate to my personal hell— tutorial hell. For those who don't know what I am referring to, tutorial hell is the beginning stage of learning a new technology when you are deep in the trenches of tutorials. While tutorial hell is often criticized as unproductive due to the lack of practice, it is a crucial step in building a good theoretical basis of the new library/language that you're working with—otherwise it is almost impossible to build anything complex. As Kurt Lewin said, "there is nothing more practical than a good theory."</p>
+
+        <p class="text-foreground dark:text-foreground/90">Well, now with ChatGPT (and other amazing LLMs), tutorial hell could be a thing of the past. Just this past week, my friend and I were playing around with a Jetson Orin Nano. We are currently designing a more effective floor sweeping robot than the current in-market roomba, using 2D LiDARs to map a room and create the most optimal route for the robot. All data would be stored locally on the on-board Jetson, which ensures data privacy.</p>
+
+        <p class="text-foreground dark:text-foreground/90">The problem was that not only have we never used ROS (Robot Operating System), we also have never used an RPLiDAR in our engineering careers. Now, in the past we would have had to resort to hours of watching youtube videos and reading documentation just to get the ball rolling, but now we have ChatGPT.</p>
+
+        <p class="text-foreground dark:text-foreground/90">A simple query about how to set up ROS 2 Humble, followed by various queries on setting up our RP Lidar A1M8, and we were able to set up our LiDAR with visualization in less than 2 hours.</p>
+
+        <div class="relative aspect-video w-full my-6">
+          <img 
+            src="/images/rviz.png" 
+            alt="RViz 2 Visualization"
+            class="rounded-lg w-full h-full object-cover"
+          />
+        </div>
+
+        <p class="text-foreground dark:text-foreground/90 italic">Peep our visualization using RViz 2!</p>
+
+        <p class="text-foreground dark:text-foreground/90">This experience brought about a new mentality for me. As engineers, we live to build reliable and functional things. In the past, it took a lot of time to get the ball rolling, and even more experience to craft something reliable. Now, we can craft amazing things without having to go through the hassle of learning unimportant intricacies of the technology that we're using before even writing a line of code. There are obviously pros to learning them but you can always learn it as you continue to increase the complexity of your projects. We will learn through practice!</p>
+      </div>
+    `,
+    date: '2024-11-09',
+    slug: 'learn-first-build-later-to-build-first-learn-later'
+  },
+  {
     id: '1',
     title: 'Part of Getting It',
     content: `
