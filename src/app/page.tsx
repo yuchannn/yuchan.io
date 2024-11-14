@@ -41,6 +41,7 @@ export default function Home() {
               at Carnegie Mellon University. I was born in Chicago, grew up in Taiwan, and moved
               to Pittsburgh for college. Even though I am still currently living in Pittsburgh, me and 
               my friend Neelansh Kaabra co-founded our startup <a href="https://www.creditsea.com" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">CreditSea</a> that is based out in India.
+              While many people showcase their work through their website, I am trying to paint a picture of who I am outside of work here. Welcome!
             </p>
             <p className="mt-4">
               I have a deep passion for engineering, particularly software. 
@@ -48,7 +49,7 @@ export default function Home() {
               Just imagine the level of engineering that made it possible for you (a stranger) to view this little about me website on your phone. 
               From tinkering around with little web projects, to eventually writing my own C compiler from scratch in Rust, 
               I&apos;ve tried my very best to learn everything I can about computers and I am truly enjoying this seemingly endless journey. 
-              Glad that you&apos;re following right along.
+              Glad that you&apos;re following along my journey.
             </p>
           </div>
         </div>
