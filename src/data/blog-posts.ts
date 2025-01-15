@@ -2,6 +2,31 @@ import type { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: '4',
+    title: 'As It Should Be - The Problem with the Protected Youth',
+    content: `
+      <div class="prose dark:prose-invert max-w-none">
+        <p class="text-foreground dark:text-foreground/90">The world is complicated, and in all honesty, pretty ugly as well.</p>
+
+        <p class="text-foreground dark:text-foreground/90">As someone who grew up in a very protected and privileged environment, my views of the world solely consisted of sunshine and rainbows. My only worry in life was getting into an objectively "good" university to make my parents proud.</p>
+
+        <p class="text-foreground dark:text-foreground/90">With this protected lifestyle, I developed a rather trusting personality—underscored by the idea of "as it should be." I define this notion as "blindly expecting the ideal without considering the ethical and moral pitfalls of others."</p>
+
+        <p class="text-foreground dark:text-foreground/90">In your day to day life, it could look a little something like expecting to receive an authentic pair of shoes that you paid for on Ebay, or expecting that the food you purchase from the supermarket to be devoid of any chemicals not listed on the label. Additional examples could include believing everything you read online, lending strangers money and expecting timely repayment, and even expecting your government to protect you. In essence, believing too much in the good of the world.</p>
+
+        <p class="text-foreground dark:text-foreground/90">The truth is however, the majority of people strive to obtain more resources with minimal effort or capital. The idea of cost down is ever important in the world of business, and all the facilities that you make use of derive from businesses. Everything from the water you drink, to the bed you sleep on, and to the very device that you are reading this article on. Someone is providing you the facilities in exchange for money. Heck, at this point even the government can be considered a business, as evident with the rich and powerful spending generational wealth sponsoring presidential campaigns. In a very capitalistic society, many smaller businesses can only survive the brutal competition by cutting corners to even fight against large corporations that benefit from economies of scale. This hence foreshadows one of the pitfalls of such a naive outlook on life.</p>
+
+        <p class="text-foreground dark:text-foreground/90">The problem with the "as it should be" mindset is two folds. The first problem resides in the dangers of being harmed by ill-intentioned entities, and the second manifests itself in delusional pursuits. I'm not trying to promote cynicism or suggest you adopt some gloomy, doomsday outlook on life. The point is to realize that if you walk into every scenario assuming life is fair and just "because it should be," you're basically handing over the reins to anyone with enough nerve to take advantage of your naivete.</p>
+
+        <p class="text-foreground dark:text-foreground/90">The second danger, the one about delusional pursuits, is a little more nuanced. When you carry on with an "as it should be" attitude, you risk committing yourself to causes that never had a fighting chance in the first place. Among those that are cognizant of the "unfairness" in the world, the "as it should be" attitude deludes them into believing in the necessity of "fairness" in the world—which by the way is also subjective to their moral values. This causes them to furiously protest for a world that reflects their pure and innocent ideals, which will never materialize so long as greed and resource scarcity exists.</p>
+
+        <p class="text-foreground dark:text-foreground/90">I must emphasize that I am not saying that we should give up on advocating for a better world. It's just that I believe it's important to recognize that an ideal world will never exist. Stop being naive and get to work, because becoming capable is your only ticket to freedom.</p>
+      </div>
+    `,
+    date: '2025-01-16',
+    slug: 'as-it-should-be-the-problem-with-the-protected-youth'
+  },
+  {
     id: '3',
     title: 'Some of my thoughts on the current AI code editors',
     content: `

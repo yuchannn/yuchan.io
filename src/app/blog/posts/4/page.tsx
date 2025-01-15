@@ -3,8 +3,8 @@ import React from "react";
 import { blogPosts } from "@/data/blog-posts";
 import Link from "next/link";
 
-export default function ThirdBlogPost() {
-  const post = blogPosts.find((post) => post.id === "3");
+export default function FourthBlogPost() {
+  const post = blogPosts.find((post) => post.id === "4");
 
   if (!post) {
     return <div>Post not found</div>;
