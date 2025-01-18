@@ -2,6 +2,31 @@ import type { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: '5',
+    title: 'To My Dad',
+    content: `
+      <div class="prose dark:prose-invert max-w-none">
+        <p class="text-foreground dark:text-foreground/90">To the world, Alex is a businessman.</p>
+
+        <p class="text-foreground dark:text-foreground/90">To many, Alex is a friend, a golf aficionado, and a fishing enthusiast.</p>
+
+        <p class="text-foreground dark:text-foreground/90">To my mom, Alex is her goofy yet protective husband that holds up our entire family.</p>
+
+        <p class="text-foreground dark:text-foreground/90">I am writing this article as I travel from Taipei to Pittsburgh for another semester at Carnegie Mellon. To say that I miss my parents would be a massive understatement. Every cell within me wishes for another second with them, and I am sure they feel the same way. Amid this flight, I am experiencing this sudden urge to write an entry dedicated to my dad (sorry mom, I'll write one for you too soon!).</p>
+
+        <p class="text-foreground dark:text-foreground/90">You know how they say your parents will always see you as a child, regardless of how old you've grown? I think the vice versa is also true from a child's perspective towards their parents. Despite my father's aging wrinkles and atrophying muscles, the way I see him has remained roughly the same for the past 10 years of my life.</p>
+
+        <p class="text-foreground dark:text-foreground/90">To me, he is Superman. The invincible super human capable of fighting back the world for our family. Under his parenting, I grew up believing that the stars are the limit, and that I could achieve anything. Amidst this complicated and messy world, my dad had me growing up believing that the world was all sunshine and rainbows. In this world he built for me, there was only ever sun and never rain. Everyday, he reassures me and brother with the soothing words: "什麼都不用擔心，我是你們的靠山". This phrase literally translates to "Don't worry about anything, I am your rock." While I had not truly understood what "rock" meant as a child, knowing that my dad always has my back has given me tremendous amounts of courage to try anything.</p>
+
+        <p class="text-foreground dark:text-foreground/90">I aspire to be like my dad one day. Capable of sheltering the people that matter to me the most—maybe even holding up the world for him as well. I will work harder everyday to become more of a man like him so I can protect my family from the dangers of the world.</p>
+
+        <p class="text-foreground dark:text-foreground/90">I love you dad.</p>
+      </div>
+    `,
+    date: '2025-01-18',
+    slug: 'to-my-dad'
+  },
+  {
     id: '4',
     title: 'As It Should Be - The Problem with the Protected Youth',
     content: `
